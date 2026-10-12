@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>registration</title>
+    <style>
+        body{
+            background-color: lightblue;
+            font-family:Arial;
+        }
+        h1{
+            color:darkblue;
+            font-size:30px;
+            padding:20px;
+
+        }
+        td{
+           padding: 8px;
+           color:darkgreen;
+           font-size:16px;
+
+
+        }
+        input,select,textarea
+        {
+            background:lightyellow;
+            padding:5px;
+
+        }
+    </style>
+
+            
+</head>
+<body>
+    <h1>Registration form</h1>
+    
+    <form>
+        <table>
+            <tr>
+                <td>Name:</td><td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Email:<td><input type="email"></td>
+            </tr>
+            <tr><td>password:<td><input type="password"></td></tr>
+            <tr><td>Gender</td>
+            <td>
+                <input type="radio" name="g">Male
+                <input type="radio" name="g">Female
+            </td></tr>
+            <tr><td>course:</td>
+            <td>
+                <select>
+                    <option>BCA</option>
+                    <option>B.E</option>
+                    <option>MCA</option>
+                    <option>B.COM</option>
+                </select>
+            </td></tr>
+            <tr><td>SKILLS:</td>
+                <td>
+            <input type="checkbox">HTML
+        <input type="checkbox">CSS</td></tr>
+        <tr><td>Address:</td></tr><textarea></textarea>
+        <tr><td colspan="2",align="center">
+            <input type ="submit"value="Register">
+            <input type="reset" value="clear">
+        </td></tr>
+            
+        </table>
+
+    </form>
+    </body>
+    </html>
